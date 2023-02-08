@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #4caf50;
+    height: 100px;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+}
+
+.header #logout {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.messages {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    color: black;
+    bottom: 0;
+    margin: auto auto;
+    height: 50px;
+    width: inherit;
+    border-top: 1px solid white;
+    justify-content: center;
+    align-items: center;
+}

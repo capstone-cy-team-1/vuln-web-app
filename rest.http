@@ -1,0 +1,16 @@
+# to make get request
+### Get health report
+GET http://localhost:3000/health
+
+###
+GET http://localhost:3000/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoibGV2aSIsImlhdCI6MTY2NDY4NjU5NH0.l1R5nW5lFLRFYuNqNWMfkL8UwXN9eWcNPRKxzCepmEI
+
+###
+POST  http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "levi",
+    "password": "password"
+}
