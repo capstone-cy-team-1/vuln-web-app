@@ -4,13 +4,13 @@ GET http://localhost:3000/health
 
 ###
 GET http://localhost:3000/
-Authorization: Bearer <token>
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiamFpbiIsImlhdCI6MTY3NTg5NzQwNH0.3pxjyIeyqfaVlemNrbcj0IC5E6bFy2zlIIbsT9fvAWQ
 
 ###
 POST  http://localhost:3000/login
 Content-Type: application/json
 
 {
-    "username": "levi",
-    "password": "password"
+    "username": "jain",
+    "password": "password_jain"
 }
