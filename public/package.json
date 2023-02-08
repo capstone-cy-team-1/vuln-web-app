@@ -1,0 +1,21 @@
+{
+    "name": "mitm_task2",
+    "version": "1.0.0",
+    "description": "This is package.json file, can you spot the issue here? Hint: it's a supply chain issue!",
+    "main": "app.js",
+    "scripts": {
+      "start": "node src/app.js",
+      "dev": "nodemon src/app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "jsonwebtoken": "^0.4.0",
+      "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.20"
+    }
+  }
+  

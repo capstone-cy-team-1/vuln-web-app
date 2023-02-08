@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BatCave</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+    <div class="sky">
+        <div class="moon"></div>
+    </div>
+
+    <div class="skyline"></div>
+    <div class="light">
+
+        <!--
+            Batman logo by Stephen Greig:
+	        http://tangledindesign.com/famous-logos-in-css3-the-dark-knight/
+            Shamelessly copied for this assignment by realArcherl (TA), yes that's my hacker handle :)
+-->
+        <div id="batman-logo">
+            <div id="left-white"></div>
+            <div id="right-white"></div>
+            <div id="top-white"></div>
+        </div>
+
+    </div>
+
+    {{!-- LOGIN FUNCTIONALITY --}}
+
+
+    <form class="login-form" method="POST" action="/login">
+        {{#if indexMessageError}}
+        <div class="errors">
+            <p>{{indexMessageError}}</p>
+        </div>
+        {{/if}}
+        <h1>Login</h1>
+        <div></div>
+        <input type="text" placeholder="username" name="username" maxlength="20" required>
+        <input type="password" placeholder="password" name="password" maxlength="20" required>
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+    <!-- <div class="skyline"></div> -->
+
+    <div class="batman">
+        <div class="head">
+            <div class="ears">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nose"></div>
+            <div class="mouth"></div>
+        </div>
+        <div class="body">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="leg">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="leg">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="foot"></div>
+        <div class="foot"></div>
+        <div class="cape">
+            <div class="cape-shape"></div>
+        </div>
+        <div class="watchtower">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
