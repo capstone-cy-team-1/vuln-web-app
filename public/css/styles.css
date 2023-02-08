@@ -10,6 +10,18 @@
   --w8: conic-gradient(from 90deg at 50% 50%, #2b4e5f 0% 25%, #fff0 0% 100%) no-repeat;
 }
 
+.errors {
+  position: relative;
+  z-index: 1;
+  font-size: medium;
+  color: red;
+  font-weight: bolder;
+  background: transparent;
+  max-width: 360px;
+  margin: 0 auto 10px;
+  padding: 5px;
+  text-align: center;
+}
 
 .login-form {
   display: flex;

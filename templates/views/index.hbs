@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Scouting Legion</title>
+    <title>BatCave</title>
     <link rel="stylesheet" href="/css/styles.css" />
 </head>
 
@@ -17,7 +17,7 @@
         <!--
             Batman logo by Stephen Greig:
 	        http://tangledindesign.com/famous-logos-in-css3-the-dark-knight/
-            Shameless copied for this assignment by realArcherl (TA), yes that's my hacker handle :)
+            Shamelessly copied for this assignment by realArcherl (TA), yes that's my hacker handle :)
 -->
         <div id="batman-logo">
             <div id="left-white"></div>
@@ -31,6 +31,11 @@
 
 
     <form class="login-form" method="POST" action="/login">
+        {{#if indexMessageError}}
+        <div class="errors">
+            <p>{{indexMessageError}}</p>
+        </div>
+        {{/if}}
         <h1>Login</h1>
         <div></div>
         <input type="text" placeholder="username" name="username" maxlength="20" required>
