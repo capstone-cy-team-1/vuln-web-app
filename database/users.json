@@ -1,13 +1,13 @@
 {
     "users": [
         {
-            "username": "levi",
-            "password": "password_levi",
-            "message": "This is Erwin. A valuable code(flag) was sent to your account. The code is critical for the next scouting expedition. The website is not well     designed and has a critical vulnerability, find a way to hack into your own account to retrieve the code. You can find your username in the assignment"
+            "username": "batman",
+            "password": "password_batman",
+            "message": "This is Erwin. A valuable code(flag) was sent to your account.     The code is critical for the next scouting expedition. The website is not well     designed and has a critical vulnerability, find a way to hack into your own account     to retrieve the code. You can find your username in the assignment"
         },
         {
-            "username": "eren",
-            "password": "password_eren",
+            "username": "admin",
+            "password": "password_admin",
             "message": "This is a CTF!"
         },
         {
@@ -16,24 +16,24 @@
             "message": "Hello! I am the creator of the CTF"
         },
         {
-            "username": "test",
-            "password": "9947dcc662",
-            "message": "Your flag is {nsp_9947dcc662}"
+            "username": "shreyas",
+            "password": "19e1a6a184",
+            "message": "Your flag is {nsp_19e1a6a184}"
         },
         {
-            "username": "test2",
-            "password": "718217c87e",
-            "message": "Your flag is {nsp_718217c87e}"
+            "username": "peter",
+            "password": "cfed36b418",
+            "message": "Your flag is {nsp_cfed36b418}"
         },
         {
-            "username": "nishant",
-            "password": "cb98e859bd",
-            "message": "Your flag is {nsp_cb98e859bd}"
+            "username": "parth",
+            "password": "310a3868c7",
+            "message": "Your flag is {nsp_310a3868c7}"
         },
         {
-            "username": "kinghusky",
-            "password": "6e45761226",
-            "message": "Your flag is {nsp_6e45761226}"
+            "username": "yiduo",
+            "password": "c902162137",
+            "message": "Your flag is {nsp_c902162137}"
         }
     ]
 }

@@ -11,17 +11,17 @@ def generate_random_hash():
 # seed sample accounts
 def seed_sample():
     ## Define the CTF objective here
-    message_seed_levi = "This is Erwin. A valuable code(flag) was sent to your account. \
+    message_seed_batman = "This is Erwin. A valuable code(flag) was sent to your account. \
     The code is critical for the next scouting expedition. The website is not well \
     designed and has a critical vulnerability, find a way to hack into your own account \
     to retrieve the code. You can find your username in the assignment"
 
-    message_seed_eren = "This is a CTF!"
+    message_seed_admin = "This is a CTF!"
     message_seed_jain = "Hello! I am the creator of the CTF"
 
     seed_users = [
-        {"username": "levi", "password": "password_levi", "message": message_seed_levi},
-        {"username": "eren", "password": "password_eren", "message": message_seed_eren},
+        {"username": "batman", "password": "password_batman", "message": message_seed_batman},
+        {"username": "admin", "password": "password_admin", "message": message_seed_admin},
         {"username": "jain", "password": "password_jain", "message": message_seed_jain},
     ]
 
