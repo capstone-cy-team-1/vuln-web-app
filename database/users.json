@@ -3,7 +3,7 @@
         {
             "username": "batman",
             "password": "password_batman",
-            "message": "This is Erwin. A valuable code(flag) was sent to your account.     The code is critical for the next scouting expedition. The website is not well     designed and has a critical vulnerability, find a way to hack into your own account     to retrieve the code. You can find your username in the assignment"
+            "message": "This is the vulnerable NodeJS APP designed for the course CY7900"
         },
         {
             "username": "admin",
@@ -17,23 +17,23 @@
         },
         {
             "username": "shreyas",
-            "password": "19e1a6a184",
-            "message": "Your flag is {nsp_19e1a6a184}"
+            "password": "a87113f0c6",
+            "message": "Your flag is {nsp_a87113f0c6}"
         },
         {
             "username": "peter",
-            "password": "cfed36b418",
-            "message": "Your flag is {nsp_cfed36b418}"
+            "password": "9af5f79db4",
+            "message": "Your flag is {nsp_9af5f79db4}"
         },
         {
             "username": "parth",
-            "password": "310a3868c7",
-            "message": "Your flag is {nsp_310a3868c7}"
+            "password": "d1bcb6dadb",
+            "message": "Your flag is {nsp_d1bcb6dadb}"
         },
         {
             "username": "yiduo",
-            "password": "c902162137",
-            "message": "Your flag is {nsp_c902162137}"
+            "password": "57dda4c276",
+            "message": "Your flag is {nsp_57dda4c276}"
         }
     ]
 }

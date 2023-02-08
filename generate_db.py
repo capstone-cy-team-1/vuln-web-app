@@ -11,10 +11,7 @@ def generate_random_hash():
 # seed sample accounts
 def seed_sample():
     ## Define the CTF objective here
-    message_seed_batman = "This is Erwin. A valuable code(flag) was sent to your account. \
-    The code is critical for the next scouting expedition. The website is not well \
-    designed and has a critical vulnerability, find a way to hack into your own account \
-    to retrieve the code. You can find your username in the assignment"
+    message_seed_batman = "This is the vulnerable NodeJS APP designed for the course CY7900"
 
     message_seed_admin = "This is a CTF!"
     message_seed_jain = "Hello! I am the creator of the CTF"
