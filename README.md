@@ -82,6 +82,7 @@ Make sure to create the ENV file (.env). The .env file should look something lik
 ```env
 # contents of .env file
 PORT=1337
+JWT_SECRET_KEY = gfg_jwt_secret_key
 ```
 
 ## Running it on a VPS
