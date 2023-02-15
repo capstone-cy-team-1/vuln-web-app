@@ -2,6 +2,7 @@ import json
 import secrets
 import argparse
 
+
 # generate random Hash (also the value for the flag)
 def generate_random_hash():
     # 5*2 = 10, will generate a hash of 10 chars
@@ -11,14 +12,22 @@ def generate_random_hash():
 # seed sample accounts
 def seed_sample():
     ## Define the CTF objective here
-    message_seed_batman = "This is the vulnerable NodeJS APP designed for the course CY7900"
+    message_seed_batman = "This is the vulnerable NodeJS APP designed for the course CY7900, the private package name is: <package-name>"
 
     message_seed_admin = "This is a CTF!"
     message_seed_jain = "Hello! I am the creator of the CTF"
 
     seed_users = [
-        {"username": "batman", "password": "password_batman", "message": message_seed_batman},
-        {"username": "admin", "password": "password_admin", "message": message_seed_admin},
+        {
+            "username": "batman",
+            "password": "password_batman",
+            "message": message_seed_batman,
+        },
+        {
+            "username": "admin",
+            "password": "password_admin",
+            "message": message_seed_admin,
+        },
         {"username": "jain", "password": "password_jain", "message": message_seed_jain},
     ]
 
@@ -26,7 +35,6 @@ def seed_sample():
 
 
 if __name__ == "__main__":
-
     # taking value of the file containing list of username
     parser = argparse.ArgumentParser()
     parser.add_argument("-filename", help="file containing list of usernames")
