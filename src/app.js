@@ -2,6 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const path = require('path')
 const fs = require('fs');
+const { some_important_function } = require('package-private-1')
 
 // front end library
 const hbs = require('hbs')
@@ -45,6 +46,9 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+// CALL TO vulnerable package.
+const sum = some_important_function()
+console.log("Usage of the imporant function: " + sum)
 
 app.get('/health', async (req, res, next) => {
   res.send({ message: 'Awesome it works 🐻' });

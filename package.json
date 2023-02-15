@@ -19,7 +19,8 @@
     "helmet": "^6.0.0",
     "http-errors": "^2.0.0",
     "jsonwebtoken": "^0.4.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "package-private-1": "^1.0.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

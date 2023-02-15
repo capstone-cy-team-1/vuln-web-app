@@ -43,7 +43,7 @@ if __name__ == "__main__":
     for username in list_u:
         username = username
         password = flag_hash = generate_random_hash()
-        message = f"Your flag is {{nsp_{flag_hash}}}"
+        message = f"Batman has sent you a secret code {{Your_Secret_Hash_{flag_hash}}}"
         users.append({"username": username, "password": password, "message": message})
 
     # create a dictionary to store the array of users

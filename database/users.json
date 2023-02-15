@@ -17,23 +17,28 @@
         },
         {
             "username": "shreyas",
-            "password": "a87113f0c6",
-            "message": "Your flag is {nsp_a87113f0c6}"
+            "password": "330b6f8121",
+            "message": "Batman has sent you a secret code {Your_Secret_Hash_330b6f8121}"
         },
         {
             "username": "peter",
-            "password": "9af5f79db4",
-            "message": "Your flag is {nsp_9af5f79db4}"
+            "password": "023c62f6c2",
+            "message": "Batman has sent you a secret code {Your_Secret_Hash_023c62f6c2}"
         },
         {
             "username": "parth",
-            "password": "d1bcb6dadb",
-            "message": "Your flag is {nsp_d1bcb6dadb}"
+            "password": "3504ade6de",
+            "message": "Batman has sent you a secret code {Your_Secret_Hash_3504ade6de}"
         },
         {
             "username": "yiduo",
-            "password": "57dda4c276",
-            "message": "Your flag is {nsp_57dda4c276}"
+            "password": "325c5d4dd0",
+            "message": "Batman has sent you a secret code {Your_Secret_Hash_325c5d4dd0}"
+        },
+        {
+            "username": "profjose",
+            "password": "e1456ff429",
+            "message": "Batman has sent you a secret code {Your_Secret_Hash_e1456ff429}"
         }
     ]
 }
