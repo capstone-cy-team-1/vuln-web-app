@@ -3,7 +3,7 @@
         {
             "username": "batman",
             "password": "password_batman",
-            "message": "This is the vulnerable NodeJS APP designed for the course CY7900"
+            "message": "This is the vulnerable NodeJS APP designed for the course CY7900, the private package name is: <package-name>"
         },
         {
             "username": "admin",
@@ -17,28 +17,28 @@
         },
         {
             "username": "shreyas",
-            "password": "330b6f8121",
-            "message": "Batman has sent you a secret code {Your_Secret_Hash_330b6f8121}"
+            "password": "322ce2c39b",
+            "message": "Batman has sent you a secret code {Your_Secret_Hash_322ce2c39b}"
         },
         {
             "username": "peter",
-            "password": "023c62f6c2",
-            "message": "Batman has sent you a secret code {Your_Secret_Hash_023c62f6c2}"
+            "password": "6f513f2519",
+            "message": "Batman has sent you a secret code {Your_Secret_Hash_6f513f2519}"
         },
         {
             "username": "parth",
-            "password": "3504ade6de",
-            "message": "Batman has sent you a secret code {Your_Secret_Hash_3504ade6de}"
+            "password": "3292446f46",
+            "message": "Batman has sent you a secret code {Your_Secret_Hash_3292446f46}"
         },
         {
             "username": "yiduo",
-            "password": "325c5d4dd0",
-            "message": "Batman has sent you a secret code {Your_Secret_Hash_325c5d4dd0}"
+            "password": "dbc08f3417",
+            "message": "Batman has sent you a secret code {Your_Secret_Hash_dbc08f3417}"
         },
         {
             "username": "profjose",
-            "password": "e1456ff429",
-            "message": "Batman has sent you a secret code {Your_Secret_Hash_e1456ff429}"
+            "password": "2824833959",
+            "message": "Batman has sent you a secret code {Your_Secret_Hash_2824833959}"
         }
     ]
 }
